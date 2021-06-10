@@ -21,6 +21,9 @@ public class CardTrick {
 
     public static void main(String[] args) {
         Card[] magicHand = new Card[7];
+        // Add a LuckyCard object
+        //Micah Garnett 991495707
+        Card[] luckyCard = new Card[13];
         Scanner input = new Scanner(System.in);
 
         for (int i = 0; i < magicHand.length; i++) {
