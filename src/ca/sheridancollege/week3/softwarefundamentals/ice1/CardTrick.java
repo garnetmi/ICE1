@@ -14,7 +14,7 @@ import java.util.Scanner;
  * the user's card. To be used as starting code in ICE 1
  *
  * @author Sivagama
- * @moddiffer Micah Garnett
+ * @modiffer Micah Garnett
  * @studentNumber 991495707
  */
 public class CardTrick {
