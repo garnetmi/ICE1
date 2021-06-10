@@ -14,6 +14,8 @@ import java.util.Scanner;
  * the user's card. To be used as starting code in ICE 1
  *
  * @author Sivagama
+ * @moddiffer Micah Garnett
+ * @studentNumber 991495707
  */
 public class CardTrick {
 
@@ -39,7 +41,7 @@ public class CardTrick {
         int value = input.nextInt();
         System.out.println("Please enter a card value between 1 and 13:");
         int card = input.nextInt();
-        
+
         switch (value) {
             case 1: {
                 System.out.println("Your card: ");
@@ -65,19 +67,13 @@ public class CardTrick {
         }
 
         // and search magicHand her
-        if( value > 4 && card > 13)
-        {
-                     
+        if (value > 4 && card > 13) {
+
             System.out.println("The Magic Hand does not have your card");
+        } else {
+            System.out.println("Value: " + card);
+            System.out.println("The Magic Hand does contain your card");
         }
-        else
-        {
-                    System.out.println("Value: " + card);
-             System.out.println("The Magic Hand does contain your card");
-        }
-  
-     
-       
 
         //Then report the result here
     }
