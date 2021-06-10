@@ -50,4 +50,15 @@ public class Card {
    
    
     
+    public int randomValue(){
+        int value = (int)(Math.random()*13)+1;
+        return value;
+    }
+    
+    public int randomSuit()
+    {
+        int value = (int)(Math.random()*4);
+        return value;
+    }
+    
 }
